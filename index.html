@@ -1,183 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Html Checkpoint 1 Portfolio</title>
-</head>
+  </head>
 
-<body>
-    <header>
-        <nav id="navbar">
-            <ul id="nav" type="none">
-                <li> 
-                    <a href="#home-section">Home</a>
-                </li>
-                <li> 
-                    <a href="#about-section">About</a>
-                </li>
-                <li> 
-                    <a href="#work-section">Work</a>
-                </li>
-                <li> 
-                    <a href="#resume-section">Resume</a>
-                </li>
-                <li> 
-                    <a href="#contact-section">Contact</a>
-                </li>
-            </ul>
-        </nav>
+  <body>
+    <header> 
+        <h1 class="sbs">STEVLITE</h1>
+        <ul id="nav" class="sbs"  type="none">
+          <li>
+            <a href="#home-section">Home</a>
+          </li>
+          <li>
+            <a href="#about-section">About</a>
+          </li>
+          <li>
+            <a href="#work-section">Work</a>
+          </li>
+          <li>
+            <a href="#resume-section">Resume</a>
+          </li>
+          <li>
+            <a href="#contact-section">Contact</a>
+          </li>
+        </ul>
     </header>
 
     <main>
-        <section id="home-section">
-            <div id="home-content">
-                <h1>Hi there, I am Stephen Okeh</h1>
-                <h4>Your friendly neighborhood Web developer</h4>
-                <img src="profile.jpg" height="300px" width="auto" alt="">
-                <p>I create very clean Websites that not only tells a story but also provides functionality</div>
-        </section>
+      <section id="home-section">
+        <div id="home-content">
+          <h1>Hi there, I am Stephen Okeh</h1>
+          <h4>Your friendly neighborhood Web developer</h4>
+          <img src="res/profile.jpg" height="300px" width="auto" alt="" />
+          <p>
+            I create very clean Websites that not only tells a story but also
+            provides functionality
+          </p>
+        </div>
+      </section>
 
-        <section id="about-section">
-            <div id="about-content" style="margin-top: 50px;">
-                <h1>
-                    Enthusiastic Web developer with skills needed for frontend and backend development.
-                </h1>
-                <br>
-                <audio controls>
-                    <source src="audio-welcome.unknown" type="audio/mp3">
-                </audio>
-                <h3>
-                    Development Process
-                </h3>
-                <ol type="i">
-                        <li>
-                            <b>Research</b>- I make findings and do research on ideas that solve problems.
-                        </li>
-                        <li>
-                            <b>Design</b>- I create a design that is both visually appealing and user friendly.
-                        </li>
-                        <li>
-                            <b>Creation and Testing</b>- I create the website and test it to ensure it works as expected.
-                        </li>
-                </ol>
+      <section id="about-section">
+        <div id="about-content" style="margin-top: 50px">
+          <h1>
+            Enthusiastic Web developer with skills needed for frontend and
+            backend development.
+          </h1>
+          <br />
+          <audio controls>
+            <source src="res/audio-welcome.unknown" type="audio/mp3" />
+          </audio>
+          <h3>Development Process</h3>
+          <ol type="i">
+            <li>
+              <b>Research</b>- I make findings and do research on ideas that
+              solve problems.
+            </li>
+            <li>
+              <b>Design</b>- I create a design that is both visually appealing
+              and user friendly.
+            </li>
+            <li>
+              <b>Creation and Testing</b>- I create the website and test it to
+              ensure it works as expected.
+            </li>
+          </ol>
 
-                <h3>
-                    My skills and tools
-                </h3>
-                <ul type="square">
-                    <li>
-                        <b>Skills</b>: Git, Github, HTML, Css
-                    </li>
-                    <li>
-                        <b>Tools</b>: Github, VsCode
-                    </li>
-                </ul>
+          <h3>My skills and tools</h3>
+          <ul type="square">
+            <li><b>Skills</b>: Git, Github, HTML, Css</li>
+            <li><b>Tools</b>: Github, VsCode</li>
+          </ul>
+        </div>
+      </section>
 
-            </div>
-        </section>
+      <section id="work-section">
+        <div id="project-content">
+          <h1 class="text">These are my projects</h1>
+          <ol>
+            <li><h3>Project Name: Portfolio Page</h3></li>
+            <ul>
+              <li>
+                <b>Challenge</b>- Create a portfolio page that showcases my
+                skills and experience.
+              </li>
+              <li>
+                <b>Process</b>- I used HTML to create the layout of the page.
+              </li>
+              <li>
+                <b>Outcome</b>- The portfolio page is visually appealing and
+                easy to navigate.
+              </li>
+              <li><b>Tools</b>- HTML, Git, Github</li>
+              <button type="button">See More</button>
+            </ul>
+          </ol>
+          <ol>
+            <li><h3>Project Name: Restaurant Menu Page</h3></li>
+            <ul>
+              <li><b>Tools</b>- HTML, Git, Github.</li>
+              <button type="button">See More</button>
+            </ul>
+          </ol>
+        </div>
+      </section>
 
-        <section id="work-section">
-            <div id="project-content">
-                <h1>
-                    These are my projects
-                </h1>
-                <ol>
-                    <li><h3>Project Name: Portfolio Page</h3></li>
-                    <ul>
-                        <li>
-                            <b>Challenge</b>- Create a portfolio page that showcases my skills and experience.
-                        </li>
-                        <li>
-                            <b>Process</b>- I used HTML to create the layout of the page.
-                        </li>
-                        <li>
-                            <b>Outcome</b>- The portfolio page is visually appealing and easy to navigate.
-                        </li>
-                        <li>
-                            <b>Tools</b>- HTML, Git, Github
-                        </li>
-                        <button type="button">See More</button>
-                    </ul>
-                </ol>
-                <ol>
-                    <li><h3>Project Name: Restaurant Menu Page</h3></li>
-                    <ul>
-                        <li>
-                            <b>Tools</b>- HTML, Git, Github.
-                        </li>
-                        <button type="button">See More</button>
-                    </ul>
-                </ol>
-            </div>
-        </section>
+      <section id="resume-section">
+        <div id="work-content">
+          <h1>Work Experience:</h1>
+          <ul>
+            <li>
+              <b>IT Officer</b>- Imagination Tools
+              <p><i>Dates: Sep 2023 – March 2024</i></p>
+              <ul>
+                <li>
+                  Learned to work With colleagues and collaborate with other
+                  companies.
+                </li>
+                <li>
+                  conducted training sessions for new employees on the use of
+                  various computer softwares.
+                </li>
+              </ul>
+            </li>
 
-        <section id="resume-section">
-            <div id="work-content">
-                <h1>Work Experience:</h1>
-                <ul>
-                    <li><b>IT Officer</b>- Imagination Tools
-                        <p><i>Dates: Sep 2023 – March 2024</i></p>
-                        <ul>
-                            <li>Learned to work With colleagues and collaborate with other companies.</li>
-                            <li>conducted training sessions for new employees on the use of various computer softwares.</li>
-                        </ul>
-                    </li>
+            <br />
 
-                    <br>
+            <li>
+              <b>IT Officer/Manager</b>- BKF Farm Foods
+              <p><i>Dates: January 2018 – March 2023</i></p>
+              <ul>
+                <li>
+                  I implemented plans to tackle problems associated with the
+                  establishment.
+                </li>
+              </ul>
+            </li>
+          </ul>
 
-                    <li><b>IT Officer/Manager</b>- BKF Farm Foods
-                        <p><i>Dates: January 2018 – March 2023</i></p>
-                        <ul>
-                            <li>I implemented plans to tackle problems associated with the establishment.</li>
-                        </ul>
-                    </li>
-                </ul>
+          <h1>Education</h1>
+          <ul>
+            <li>
+              <b>Bachelor's Degree Computer Sience</b>- National Open
+              University, 2021 - 2025
+            </li>
+          </ul>
+          <br />
+          <button type="button">Download Resume</button>
+        </div>
+      </section>
 
-                <h1>Education</h1>
-                <ul>
-                    <li><b>Bachelor's Degree Computer Sience</b>- National Open University, 2021 - 2025</li>
-                </ul>
-                <br>
-                <button type="button">Download Resume</button>
-            </div>
-        </section>
-
-        <section id="contact-section">
-            <div id="contact-secton">
-                <h1>Lets Work Together</h1>
-                <br>
-                <img src="shake.jpg" height="300px" width="500px" alt="">
-                <br>
-                <h4>Would you like me to work on a project for you ?</h4>
-                <h1>Send a message</h1>
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="loremipsum@gmail.com" required>
-                    <br>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                    <br>
-                    <button type="submit">Send message</button>
-                </form>
-            </div>
-        </section>
+      <section id="contact-section">
+        <div id="contact-secton">
+          <h1>Lets Work Together</h1>
+          <br />
+          <img src="res/shake.jpg" height="300px" width="500px" alt="" />
+          <br />
+          <h4>Would you like me to work on a project for you ?</h4>
+          <h1>Send a message</h1>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="loremipsum@gmail.com"
+              required
+            />
+            <br />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br />
+            <button type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Lorem Ipsum. All rights reserved.</p>
-        <div id="smlinks_footer">
-            <a href="https://www.facebook.com" target="_blank">Facebook</a>
-            <a href="https://www.twitter.com" target="_blank">Twitter</a>
-            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-        </div>
+      <p>&copy; 2024 Lorem Ipsum. All rights reserved.</p>
+      <div id="smlinks_footer">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
